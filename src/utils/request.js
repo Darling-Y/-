@@ -1,5 +1,5 @@
-const BASE_URL = 'https://ugo.botue.com'
-// const BASE_URL = 'https://www.uinav.com'
+// const BASE_URL = 'https://ugo.botue.com'
+const BASE_URL = 'https://www.uinav.com'
 function request (options) {
   if (!options.noLoading) {
     wx.showLoading({

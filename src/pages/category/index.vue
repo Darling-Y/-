@@ -58,6 +58,7 @@ export default {
       this.$request({
         url: '/api/public/v1/categories'
       }).then(data => {
+        content.log(data)
         this.categories = data
       })
     }
